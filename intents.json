@@ -1,0 +1,71 @@
+{"intents":  [
+
+  {
+    "tag":  "greetings",
+  "patterns": ["hello","hi","hey","what's up","hey","good morning","good afternoon" ],
+  "responses":  ["Hello","Hey","Hi","I am here","Good to see you","It's nice to meet you"]
+  } ,
+  {
+   "tag":  "where_from",
+  "patterns": ["where are you from","where is your house ","where was you born","where are you living" ],
+  "responses":  ["from the attic"]
+  },
+   {
+    "tag":  "signs",
+  "patterns": ["i am libra","my sign is aries","pisces","aquarius","my sign capricornus","sagittarius","scorpius","virgo","leo","cancer", "gemini", "taurus"],
+  "responses":  ["Wait a second"]
+  },
+  {
+    "tag": "horoscope",
+    "patterns":["i want my horoscope for today","tell me my horoscope","can you tell me my forecast"],
+    "responses":["Sure, what is your zodiac sign?"]
+  },
+   {
+    "tag": "whatsup",
+    "patterns":["how are you?","how's it going","sup","what is new","how are you feeling"],
+    "responses":["not bad","great","i am good","I'm doing well"]
+  },
+    {
+    "tag": "thanks",
+    "patterns":["thanks","thank you so much","appreciate it","good job","i am gratefull"],
+    "responses":["with pleasure","you got it","no worries","not a problem","it was nothing"]
+  },
+    {
+    "tag": "i_am_fine",
+    "patterns":["im good","not bad","i am well","fine"],
+    "responses":["how can i help you?"]
+  },
+
+    {
+    "tag": "goodbye",
+    "patterns":["goodbye","have a nice day","see you soon","see you later","bye","take care"],
+    "responses":["goodbye","have a nice day","see you soon","see you later","bye","take care","It was nice seeing you"]
+  },
+   {
+    "tag": "name",
+    "patterns":["who are you","what is your name","how are you called"],
+    "responses":["I am horoscope bot"]
+  },
+  {
+    "tag": "features",
+    "patterns":["what can you do","what is your scope"],
+    "responses":["I can tell your horoscope"]
+  },
+     {
+    "tag": "nothing_else",
+    "patterns":["nothing else","is allright ","is enough"],
+    "responses":["with pleasure","you got it","no worries","not a problem","it was nothing"]
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+]}
