@@ -1,0 +1,10 @@
+pickle
+numpy
+textblob
+nltk
+tensorflow
+telebot
+json
+pandas
+requests
+discord
